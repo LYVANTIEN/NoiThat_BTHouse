@@ -47,12 +47,12 @@ hr {
     height: 5px;
     border-radius: 50px;
     transform: skew(-12deg) translateX(-50%);
-    background: #6556FF;
+    background: #A46119;
     z-index: -1;
 }
 
 .testimonialbg {
-    background: linear-gradient(-60deg, #1CBEEE 29.34%, #1A21BC 107.98%);
+    background: linear-gradient(-60deg, #c57d2f 29.34%, #A46119 107.98%);
     /* background-image: url('/assets/newsletter/bgg.png'); */
     clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 20%);
 }
@@ -91,7 +91,7 @@ hr {
 
 .slick-dots li.slick-active button:before {
     opacity: 1;
-    color: #1A21BC!important;
+    color: #A46119!important;
 }
 
 .slick-dots li button:before {
@@ -155,7 +155,7 @@ hr {
 }
 
 .slick-dots {
-    color: #1A21BC;
+    color: #A46119;
 }
 
 .leftRightAngle {
@@ -173,3 +173,6 @@ hr {
     background-size: cover;
     border-radius: 20px;
 }
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }

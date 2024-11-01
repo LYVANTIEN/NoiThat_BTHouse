@@ -14,11 +14,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#/', current: true },
-    { name: 'Courses', href: '#courses', current: false },
-    { name: 'Mentor', href: '#mentor', current: false },
-    { name: 'Group', href: '/', current: false },
-    { name: 'Testimonial', href: '#testimonial', current: false },
+    { name: 'Trang chủ', href: '/', current: true },
+    { name: 'Thiết kế', href: '#courses', current: false },
+    { name: 'Thông tin', href: '#mentor', current: false },
+    { name: 'Giới thiệu', href: '#/', current: false },
+    { name: 'Quy trình', href: '#testimonial', current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -60,13 +60,15 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center">
                                 <img
                                     className="block h-12 w-40 lg:hidden"
-                                    src={'/assets/logo/logo.svg'}
+                                    src={'logo.jpg'}
                                     alt="dsign-logo"
+                                    style={{ width: '130px', height: '80px' }}
                                 />
                                 <img
                                     className="hidden h-full w-full lg:block"
-                                    src={'/assets/logo/logo.svg'}
+                                    src={'logo.jpg'}
                                     alt="dsign-logo"
+                                    style={{ width: '130px', height: '80px' }}
                                 />
                             </div>
 
@@ -97,12 +99,12 @@ const Navbar = () => {
 
                         {/* SIGNIN DIALOG */}
 
-                        <Signdialog />
+                        {/* <Signdialog /> */}
 
 
                         {/* REGISTER DIALOG */}
 
-                        <Registerdialog />
+                        {/* <Registerdialog /> */}
 
 
                         {/* DRAWER FOR MOBILE VIEW */}
