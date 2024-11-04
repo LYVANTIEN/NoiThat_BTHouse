@@ -89,20 +89,21 @@ const footer = () => {
         ))}
       </div>
       <div className="flex gap-4 justify-center pb-7.5">
-        {socialLinks.map((items, i) => (
-          <Link href={items.link} key={i}>
-            <div className="bg-white h-[80px] w-[80px] shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-[#A46119]" style={{ marginLeft: '50px' }}>
-              <Image
-                src={items.imgSrc}
-                alt={items.imgSrc}
-                width={items.width}
-                height={2}
-                className="sepiaa"
-              />
-            </div>
-          </Link>
-        ))}
+  {socialLinks.map((items, i) => (
+    <a href={items.link} key={i} target="_blank" rel="noopener noreferrer" style={{ marginLeft: '50px' }}>
+      <div className="bg-white h-[80px] w-[80px] shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-[#A46119]">
+        <Image
+          src={items.imgSrc}
+          alt={items.imgSrc}
+          width={items.width}
+          height={2}
+          className="sepiaa"
+        />
       </div>
+    </a>
+  ))}
+</div>
+
 
       {/* All Rights Reserved */}
 
