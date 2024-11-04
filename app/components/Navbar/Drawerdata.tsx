@@ -9,10 +9,10 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: 'Trang chủ', href: '/', current: true },
-  { name: 'Thiết kế', href: '#courses', current: false },
-  { name: 'Thông tin', href: '#mentor', current: false },
-  { name: 'Giới thiệu', href: '#/', current: false },
-  { name: 'Quy trình', href: '#testimonial', current: false },
+    { name: 'Thiết kế', href: '#courses', current: false },
+    { name: 'Quy trình', href: '#mentor', current: false },
+    { name: 'Cam kết', href: '#newsletter', current: false },
+    { name: 'Liên hệ', href: '#footer', current: false },
 ]
 
 function classNames(...classes: string[]) {

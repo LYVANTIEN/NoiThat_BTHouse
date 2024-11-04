@@ -16,6 +16,18 @@ const Banner = () => {
             <h3 className="text-charcoal text-lg font-normal text-center lg:text-start opacity-75 pt-5 lg:pt-0">
               Tư vấn - Thiết kế - Thi công nội thất trọn gói.
             </h3>
+            <div className="flex gap-2">
+              <Image
+                src="/assets/banner/call.png"
+                alt="check-image"
+                width={20}
+                height={20}
+                className="smallImage"
+              />
+              <h2 className="text-charcoal text-lg font-bold text-center lg:text-start opacity-75 pt-5 lg:pt-0">
+                 078.797.5354 - 091.347.7124
+              </h2>
+            </div>
 
             <div className="relative text-white focus-within:text-white flex flex-row-reverse input-shadow rounded-full pt-5 lg:pt-0">
               <input
@@ -33,8 +45,8 @@ const Banner = () => {
                   <Image
                     src={"/assets/banner/search.svg"}
                     alt="inputicon"
-                    width={30}
-                    height={30}
+                    width={50}
+                    height={60}
                   />
                 </button>
               </div>
@@ -80,7 +92,10 @@ const Banner = () => {
             </div>
           </div>
           {/* ảnh banner */}
-          <div className="col-span-6 flex justify-center" style={{ marginLeft: '100px' }}>
+          <div
+            className="col-span-6 flex justify-center"
+            style={{ marginLeft: "100px" }}
+          >
             <Image
               src="/assets/banner/bannerbthouse.png"
               alt="nothing"

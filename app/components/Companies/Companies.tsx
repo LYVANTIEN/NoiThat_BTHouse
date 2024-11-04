@@ -10,29 +10,29 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/assets/carousel/airbnb.svg"
+        imgSrc: "/assets/carousel/living.png"
     },
     {
-        imgSrc: "/assets/carousel/fedex.svg"
+        imgSrc: "/assets/carousel/bedroom.png"
     },
     {
-        imgSrc: "/assets/carousel/google.svg"
+        imgSrc: "/assets/carousel/bathroom.png"
     },
     {
-        imgSrc: "/assets/carousel/hubspot.svg"
+        imgSrc: "/assets/carousel/Table.png"
     },
     {
-        imgSrc: "/assets/carousel/microsoft.svg"
+        imgSrc: "/assets/carousel/office.png"
     },
     {
-        imgSrc: "/assets/carousel/walmart.svg"
+        imgSrc: "/assets/carousel/closet.png"
     },
     {
-        imgSrc: "/assets/carousel/airbnb.svg"
+        imgSrc: "/assets/carousel/kitchen.png"
     },
-    {
-        imgSrc: "/assets/carousel/fedex.svg"
-    }
+    // {
+    //     imgSrc: "/assets/carousel/fedex.svg"
+    // }
 ]
 
 
@@ -84,12 +84,12 @@ export default class MultipleItems extends Component {
 
             <div className='text-center my-20'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-                    <h2 className="text-midnightblue text-2xl font-semibold">Trusted by companies of all sizes</h2>
+                    <h2 className="text-midnightblue text-2xl font-semibold font-roboto">Các loại nội thất</h2>
                     <div className="py-14">
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
-                                    <Image src={item.imgSrc} alt={item.imgSrc} width={116} height={36} />
+                                    <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={70} />
                                 </div>
                             )}
                         </Slider>

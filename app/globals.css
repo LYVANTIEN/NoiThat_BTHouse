@@ -176,3 +176,13 @@ hr {
 .font-roboto {
     font-family: 'Roboto', sans-serif;
   }
+.fixed-size {
+    width: 389px;
+    height: 262px;
+    object-fit: cover;
+}
+.fixed-sizesmall {
+    width: 50;
+    height: 70px;
+    object-fit: cover;
+}

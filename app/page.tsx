@@ -13,7 +13,6 @@ export default function Home() {
       <Companies />
       <Courses />
       <Mentor />
-      <Testimonials />
       <Newsletter />
     </main>
   )
