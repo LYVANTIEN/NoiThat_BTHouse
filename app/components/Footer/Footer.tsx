@@ -38,7 +38,7 @@ const products: ProductType[] = [
     link: [
       "Số 71 Phan trọng tuệ",
       "khu dân cư Diệu Hiền",
-      "quận Cái Răng",
+      "Quận Cái Răng",
       "TP. Cần Thơ",
     ],
   },
