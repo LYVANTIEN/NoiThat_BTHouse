@@ -17,17 +17,17 @@ const socialLinks: socialLinks[] = [
   {
     imgSrc: "/assets/footer/facebook.svg",
     link: "https://www.facebook.com/noithat.bthouse.vn",
-    width: 10,
+    width: 14,
   },
   {
     imgSrc: "/assets/footer/tik-tok.png",
     link: "https://www.tiktok.com/@noithatbthouse",
-    width: 14,
+    width: 20,
   },
   {
-    imgSrc: "/assets/footer/youtube.png",
-    link: "www.youtube.com",
-    width: 14,
+    imgSrc: "/assets/footer/zalo3.png",
+    link: "https://zalo.me/0787975354",
+    width: 35,
   },
 ];
 
