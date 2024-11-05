@@ -97,10 +97,10 @@ const Banner = () => {
             style={{ marginLeft: "100px" }}
           >
             <Image
-              src="/assets/banner/bannerbthouse.png"
+              src="/assets/banner/logo.png"
               alt="nothing"
               width={1000}
-              height={805}
+              height={1200}
             />
           </div>
         </div>
