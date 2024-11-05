@@ -60,13 +60,13 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center">
                                 <img
                                     className="block h-12 w-40 lg:hidden"
-                                    src={'logo.jpg'}
+                                    src={'logo.png'}
                                     alt="dsign-logo"
                                     style={{ width: '130px', height: '80px' }}
                                 />
                                 <img
                                     className="hidden h-full w-full lg:block"
-                                    src={'logo.jpg'}
+                                    src={'logo.png'}
                                     alt="dsign-logo"
                                     style={{ width: '130px', height: '80px' }}
                                 />
