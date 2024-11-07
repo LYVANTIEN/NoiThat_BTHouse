@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Thêm logo favicon */}
-        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" type="image/<generated>"/>
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap&subset=vietnamese"
           rel="stylesheet"

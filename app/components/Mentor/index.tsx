@@ -169,7 +169,7 @@ export default class MultipleItems extends Component {
                     />
                     <div className="absolute right-[82px] bottom-[12px] bg-white rounded-full p-4">
                       <Image
-                        src="/logo.jpg"
+                        src="/logo.png"
                         alt="logo-image"
                         width={25}
                         height={24}
